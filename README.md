@@ -11,3 +11,10 @@ Features :
 - Predefined Images in a Grid
 - Static Chat UI with pre-populated messages
 - Deployed Using Vercel
+
+
+Technologies Used:
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Vercel for Deployment
