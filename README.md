@@ -4,7 +4,8 @@
 You can check it out live here:  
 [https://commit-ai-assignment.vercel.app](commit-ai-assignment.vercel.app)
 
-Hard-Coded Login Credectials : admin , admin123
+Hard-Coded Login Credentials:
+admin, admin123
 
 Features :
 - A Simple Hardcoded LoginPage ( Credectials : admin , admin123 )
