@@ -1,15 +1,16 @@
-const images = [1, 2, 3, 4, 5, 6].map((n) => `/images/${n}.jpeg`);
+const images = [1, 2, 3, 4, 5, 6].map((n) => `/images/${n}.jpg`);
 
 export default function ImageGrid() {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+    <div className="grid grid-cols-3 gap-4 p-4 w-full max-w-screen-md mx-auto">
       {images.map((src, i) => (
-        <img
-          key={i}
-          src={src}
-          alt={`Image ${i + 1}`}
-          className="rounded shadow object-cover w-full"
-        />
+        <div key={i} className="aspect-square w-full overflow-hidden rounded shadow">
+          <img
+            src={src}
+            alt={`Image ${i + 1}`}
+            className="object-cover w-full h-full"
+          />
+        </div>
       ))}
     </div>
   );
