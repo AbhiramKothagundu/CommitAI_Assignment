@@ -2,7 +2,7 @@
 
 
 You can check it out live here:  
-[https://commit-ai-assignment.vercel.app](commit-ai-assignment.vercel.app)
+[commit-ai-assignment.vercel.app](https://commit-ai-assignment.vercel.app)
 
 Hard-Coded Login Credentials:
 admin, admin123
